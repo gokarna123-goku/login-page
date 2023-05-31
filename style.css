@@ -41,23 +41,30 @@ a{
     backdrop-filter: blur(5.5px);
     border-radius: 6px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Left Section */
 .left_section{
-    width: 35%;
-    height: auto;
-    position: relative;
-}
-.back_page{
-    width: 50%;
+    width: 40%;
     height: 100%;
-    background: var(--secondary);
+    background: rebeccapurple;
 }
 .front_page{
     width: 50%;
     height: 100%;
-    background: var(--secondary);
+}
+.front_page img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Right Section */
+.right_section{
+    width: 55%;
+    height: 100%;
 }
 
 
