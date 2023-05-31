@@ -34,8 +34,8 @@ a{
 
 /* Login Page */
 .login_section{
-    width: 60%;
-    min-height: 75vh;
+    width: 65%;
+    min-height: 72vh;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 2px 20px rgba(22, 0, 44, 0.8);
     backdrop-filter: blur(5.5px);
@@ -83,9 +83,11 @@ a{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 30px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 30px 25px;
+    /* border: 1px solid rgba(255, 255, 255, 0.7); */
     border-radius: 6px;
+    box-shadow: 0 1px 20px rgba(22, 0, 44, 0.8);
+    margin-right: 0.8rem;
 }
 .company_detail{
     display: flex;
@@ -151,7 +153,7 @@ a{
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    padding: 0 10px 0 0;
+    /* padding: 0 10px 0 0; */
     margin-bottom: 1.2rem;
 }
 .hr{
@@ -172,7 +174,7 @@ a{
 form{
     width: 100%;
     height: auto;
-    padding: 0 10px 0 0;
+    /* padding: 0 10px 0 0; */
 }
 .form_section{
     display: flex;
