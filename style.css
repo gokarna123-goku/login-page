@@ -35,7 +35,7 @@ a{
 /* Login Page */
 .login_section{
     width: 60%;
-    min-height: 70vh;
+    min-height: 75vh;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 2px 20px rgba(22, 0, 44, 0.8);
     backdrop-filter: blur(5.5px);
@@ -48,15 +48,14 @@ a{
 
 /* Left Section */
 .left_section{
-    width: 39%;
-    height: 70vh;
+    width: 40%;
+    height: 75vh;
     position: relative;
-    background: red;
 }
 .back_page{
-    width: 70%;
-    height: 70vh;
-    background: rebeccapurple;
+    width: 85%;
+    height: 100%;
+    background: var(--secondary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,6 +72,8 @@ a{
 .front_page img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Right Section */
