@@ -151,6 +151,7 @@ a{
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    padding: 0 10px 0 0;
     margin-bottom: 1.4rem;
 }
 .hr{
@@ -178,7 +179,7 @@ form{
     align-items: flex-start;
     flex-direction: column;
     row-gap: 0.3rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.0rem;
 }
 .form_section label{
     font-size: 1.0rem;
@@ -192,6 +193,8 @@ form{
     border-radius: 4px;
     outline: none;
     border: 1px solid var(--secondary);
+    font-size: 1.0rem;
+    color: var(--primary);
 }
 
 
