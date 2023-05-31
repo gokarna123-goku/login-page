@@ -13,7 +13,8 @@ a{
 :root{
     --bg-color: #fff;
     --primary: #111827;
-    --secondary: #9333ea;
+    --secondary: #7514cf;
+    /* --secondary: #9333ea; */
     --tertiary: #494949;
 
     --bg-gradient: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.65));
@@ -90,6 +91,8 @@ a{
     margin-right: 0.8rem;
 }
 .company_detail{
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,6 +129,8 @@ a{
     margin-bottom: 1.0rem;
 }
 .btn_group{
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,16 +138,19 @@ a{
     margin-bottom: 1.4rem;
 }
 .social_auth_btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 0.5rem;
-    padding: 10px 12px;
     outline: none;
-    border: 1px solid var(--secondary);
+    border: 2px solid var(--secondary);
     border-radius: 6px;
     cursor: pointer;
-    font-size: 0.899rem;
+    font-size: 1.3rem;
     color: var(--primary);
 }
 
