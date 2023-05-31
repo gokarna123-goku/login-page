@@ -121,6 +121,27 @@ a{
     font-size: 1.0rem;
     color: var(--tertiary);
     font-weight: 400;
+    margin-bottom: 1.0rem;
+}
+.btn_group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.social_auth_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    padding: 12px;
+    outline: none;
+    border: 1px solid var(--secondary);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.899rem;
+    color: var(--primary);
 }
 
 
