@@ -32,6 +32,16 @@ a{
     overflow: hidden;
 }
 
+/* Login Page */
+.login_section{
+    width: 70%;
+    min-height: 70vh;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 20px rgba(22, 0, 44, 0.8);
+    backdrop-filter: blur(5.5px);
+    border-radius: 6px;
+}
+
 
 
 /* End of the css */
