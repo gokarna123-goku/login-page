@@ -40,7 +40,10 @@ a{
     box-shadow: 0 2px 20px rgba(22, 0, 44, 0.8);
     backdrop-filter: blur(5.5px);
     border-radius: 6px;
+    overflow: hidden;
 }
+
+/* Left Section */
 
 
 
