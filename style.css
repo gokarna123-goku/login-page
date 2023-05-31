@@ -196,6 +196,31 @@ form{
     font-size: 1.0rem;
     color: var(--primary);
 }
-
+.forgot_password_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.term_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.3rem;
+}
+.term_section input{
+    width: 15px;
+    height: 15px;
+}
+.term_section label{
+    font-size: .93rem;
+    color: var(--primary);
+}
+.forgot_btn{
+    font-size: .95rem;
+    color: var(--secondary);
+}
 
 /* End of the css */
