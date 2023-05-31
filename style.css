@@ -44,6 +44,21 @@ a{
 }
 
 /* Left Section */
+.left_section{
+    width: 35%;
+    height: auto;
+    position: relative;
+}
+.back_page{
+    width: 50%;
+    height: 100%;
+    background: var(--secondary);
+}
+.front_page{
+    width: 50%;
+    height: 100%;
+    background: var(--secondary);
+}
 
 
 
