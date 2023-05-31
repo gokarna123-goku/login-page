@@ -1,5 +1,22 @@
 /*  */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #fff;
+    --primary: #111827;
+    --secondary: #9333ea;
+    --tertiary: #9c967f;
+}
+
 
 
 /* End of the css */
