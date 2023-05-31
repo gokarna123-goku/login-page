@@ -128,7 +128,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
 }
 .social_auth_btn{
     display: flex;
@@ -151,6 +151,7 @@ a{
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    margin-bottom: 1.4rem;
 }
 .hr{
     width: 45%;
@@ -166,6 +167,17 @@ a{
     font-size: 1.1rem;
     color: var(--primary);
     font-weight: 500;
+}
+form{
+    width: 100%;
+    height: auto;
+    padding: 0 10px 0 0;
+}
+.form_section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 0.3rem;
 }
 
 
