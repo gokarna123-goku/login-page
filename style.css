@@ -144,5 +144,29 @@ a{
     color: var(--primary);
 }
 
+/* Divider Section */
+.divider_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.hr{
+    width: 45%;
+    height: 1px;
+    background: var(--tertiary);
+}
+.or{
+    width: 8%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
 
 /* End of the css */
